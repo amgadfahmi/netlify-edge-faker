@@ -1,0 +1,11 @@
+{
+  "name": "netlify-edge-faker",
+  "version": "1.0.0",
+  "description": "An edge function to generate fake data based on Faker JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amgad Fahmi",
+  "license": "MIT"
+}

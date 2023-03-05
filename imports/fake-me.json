@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "lodash": "https://cdn.skypack.dev/lodash",
+    "faker": "https://cdn.skypack.dev/@fakerjs/faker"
+  }
+}
