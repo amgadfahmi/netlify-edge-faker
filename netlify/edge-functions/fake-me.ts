@@ -22,7 +22,21 @@ export default async (
   if (url.searchParams.has('repeat')) {
     const repeatParam = url.searchParams.get('repeat') ?? '';
     repeat = !isNaN(+repeatParam) ? Number(repeatParam) : 1;
+    if (repeat > 100)
+      return await new Response(
+        JSON.stringify({
+          warning: 'Slow down cowboy, this is a bit too much.',
+        }),
+        {
+          status: 400,
+          headers: {
+            'content-type': 'application/json; charset=utf-8',
+          },
+        }
+      );
   }
+
+  console.log('headers', request.headers);
 
   const result: Record<string, string>[] = [];
 
