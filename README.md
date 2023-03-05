@@ -58,3 +58,10 @@ Applying this to the first request we sent, we would be expecting a result like 
     }
 ]
 ```
+
+##Roadmap 
+
+- Rate limiter 
+- Repeat limits 
+- Caching 
+- Logs and stats 
