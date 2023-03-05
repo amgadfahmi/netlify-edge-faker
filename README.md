@@ -94,3 +94,4 @@ Applying this to the first request we sent, we would be expecting a result like 
 - [ ] Rate limiter per unique request 
 - [ ] Caching for better response 
 - [ ] Logs and stats in general
+- [ ] Update function home page with a live dynamic example 
